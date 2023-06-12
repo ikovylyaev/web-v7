@@ -1,0 +1,15 @@
+---
+id: 7
+title: "Таск-трекер Мезон."
+layout: post
+date: '2022-09-23 20:00:00 +0500'
+type: design
+categories: ux/ui
+description: "Проектирование и дизайн десктопной версии на основе ДС Финка.<br>
+Концепт."
+permalink: "/design/mezon/"
+image: "mezon"
+imgsize: "contain"
+bgcolor: "#E9E9E9"
+link: "https://www.behance.net/gallery/153359249/Mezon"
+---

@@ -1,0 +1,14 @@
+---
+id: 2
+title: "Код Екатеринбурга."
+layout: post
+date: '2022-09-23 20:00:00 +0500'
+type: design
+categories: ux/ui
+description: "Разработка дизайна главной транспортного портала в десктопной и мобильной версиях."
+permalink: "/design/ekb/"
+image: "ekb"
+imgsize: "contain"
+bgcolor: "#E9E9E9"
+link: ""
+---

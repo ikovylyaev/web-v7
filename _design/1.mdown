@@ -1,0 +1,14 @@
+---
+id: 1
+title: "Xieffect.ru."
+layout: post
+date: '2022-09-23 20:00:00 +0500'
+type: design
+categories: ux/ui
+description: "Проектирование и дизайн веб-приложения, создание нового стиля бренда, разработка собственного шрифта и дизайн-системы Маркер."
+permalink: "/design/xieffect/"
+image: "xieffect"
+imgsize: "contain"
+bgcolor: "#E9E9E9"
+link: ""
+---
