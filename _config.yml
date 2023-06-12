@@ -8,7 +8,7 @@ description: >-
   Дизайн-лид Xieffect.ru и веб-дизайнер в Код Екатеринбурга. Делаю удобные интерфейсы для людей.
   
 baseurl: ""
-url: "https://new.ikovylyaev.com"
+url: "https://ikovylyaev.com"
 
 theme: minima
 plugins:
