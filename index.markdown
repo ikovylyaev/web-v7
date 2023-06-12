@@ -38,4 +38,17 @@ layout: default
         {% endif %}
     </div>
     {% endfor %}
+    <footer class='row'>
+        <div class='row'>
+            <div class='col'>2019-2023</div>
+            <div class='col text-center'><a class='link' target='blank' href='mailto:{{ site.email }}'>{{ site.email}}</a></div>
+            <div class='col text-center'><a class='link' target='blank' href='https://t.me/{{ site.telegram }}'>Телеграм</a></div>
+            <div class='col text-center'><a class='link' target='blank' href='https://behance.net/{{ site.behance }}'>Беханс</a></div>
+            <div class='col text-center'><a class='link' target='blank' href='https://dprofile.ru/{{ site.dprofile }}'>ДПрофайл</a></div>
+            <div class='col text-end'><a class='link' target='blank' href='https://figma.com/@{{ site.figma }}'>Фигма</a></div>
+        </div>
+        <div class='row text-center'>
+            <div class='col'><a class='link secondary-link' href='{{ site.url }}/policy'>Политика конфиденциальности</a></div>
+        </div>
+    </footer>
 </div>
