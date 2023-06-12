@@ -1,0 +1,20 @@
+title: ikovylyaev
+email: hi@ikovylyaev.com
+behance: ikovylyaev
+telegram: ikovylyaev
+dprofile: ikovylyaev
+figma: ikovylyaev
+description: >- 
+  i am ivan kovylyaev. freelance ui/ux and graphic designer from saint-petersburg, russia. currently working on greentech faculty of itmo university. if you want to work with me, please contact me by one of the links below.
+  
+baseurl: ""
+url: "http://127.0.0.1:4000"
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections:
+  design:
+    output: true
+    sort_by: id
