@@ -20,7 +20,7 @@ layout: default
     {% for post in site.design %}
     <div class='row'>
         <div class='col-12'>
-            <div class='image' style="background: url({{site.url}}/img/works/{{ post.image }}.png); background-size: {{ post.imgsize }}; background-position: center; background-repeat: no-repeat; background-color: {{ post.bgcolor}};"></div>
+            <div class='image' style="background: url({{site.url}}/img/works/{{ post.image }}.webp); background-size: {{ post.imgsize }}; background-position: center; background-repeat: no-repeat; background-color: {{ post.bgcolor}};"></div>
         </div>
         {% if post.link != "" %}
             <a  href="{{ post.link }}" target="blank" class='col-md-10 col-12 offset-md-1'>
