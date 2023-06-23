@@ -1,0 +1,14 @@
+---
+id: 3
+title: "Дизайн-система Финка."
+layout: post
+date: '2021-09-23 20:00:00 +0500'
+type: design
+categories: ux/ui
+description: "Разработка дизайн системы, доступной для скачивания в Фигме."
+permalink: "/design/finka/"
+image: "finka"
+imgsize: "contain"
+bgcolor: "#E9E9E9"
+link: "https://figma.com/@ikovylyaev"
+---
