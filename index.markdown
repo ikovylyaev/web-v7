@@ -4,7 +4,10 @@ layout: default
 <div class='container-fluid'>
     <div class='row'>
         <div class='col-md-10 col-12 offset-md-1'>
-            <p><span class='main-color'>Иван Ковыляев.</span> Дизайн-лид <a class='link' href="https://xieffect.ru" target="blank">Xieffect.ru</a> и веб-дизайнер в <a class='link' href="https://ekaterinburg.dev/" target="blank">Код Екатеринбурга</a>. Делаю удобные интерфейсы для людей.</p>
+            <!---<p><span class='main-color'>Иван Ковыляев.</span>Дизайн-лид <a class='link' href="https://xieffect.ru" target="blank">Xieffect.ru</a> и веб-дизайнер в <a class='link' href="https://ekaterinburg.dev/" target="blank">Код Екатеринбурга</a>. Делаю удобные интерфейсы для людей.</p>-->
+            <p><span class='main-color'>Иван Ковыляев.</span>Дизайнер, фотограф. Живу в Петербурге, работаю сразу в нескольких прекрасных командах.</p>
+            <p><span class='main-color'><a class='link' href="https://xieffect.ru" target="blank">xieffect.ru</a></span> · Делаем лучшую образовательную платформу для репетиторов и малого бизнеса.</p>
+            <p><span class='main-color'><a class='link' href="https://ekaterinburg.dev/" target="blank">Код Екатеринбурга</a></span> · Создаем цифровую экосистему города, отвечаю за транспорт.</p>
         </div>
     </div>
     <div class='row'>

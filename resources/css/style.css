@@ -52,6 +52,7 @@
 
 span{
     max-width: 100%;
+    font-weight: 600;
 }
 
 a{
@@ -92,3 +93,26 @@ a:hover{
     border-bottom: 1px solid hsla(218, 15%, 25%, 1)!important;
     transition: 0.3s;
 }
+.inner-block{
+    margin-bottom: 6vh;
+}
+.btn{
+    background: hsla(221, 100%, 5%, 0.8);
+    padding: 8px 16px;
+    color: hsla(0, 0%, 100%, 1);
+    font-size: inherit;
+    font-weight: inherit;
+    margin-top: 10px;
+    transition: 0.3s;
+    border-radius: 8px;
+}
+.btn:hover{
+    background: hsla(221, 100%, 5%, 1);
+    color: hsla(0, 0%, 100%, 1);
+    transition: 0.3s;
+}
+/*
+img{
+    box-shadow: 0 0 8px rgba(0, 8, 25, 0.16);
+}
+*/
