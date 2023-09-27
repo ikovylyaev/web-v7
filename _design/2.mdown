@@ -10,5 +10,69 @@ permalink: "/design/ekb/"
 image: "ekb"
 imgsize: "contain"
 bgcolor: "#E9E9E9"
-link: ""
+link: "/ekb"
+permalink: "/ekb/"
+role: "Веб-дизайнер"
+year: "2022-2023"
 ---
+<div class='row'>
+    <div class='col-md-2 col-12 offset-md-1'>
+        <p><span class='main-color'>Задача</span></p>
+    </div>
+    <div class='col-md-8 col-12 inner-block'>
+        <p>Создать главную и внутренние страницы транспорта Екатеринбурга</p>
+    </div>
+    <div class='col-md-2 col-12 offset-md-1'>
+        <p><span class='main-color'>Описание</span></p>
+    </div>
+    <div class='col-md-8 col-12 inner-block'>
+        <p>Транспорт Екатеринбурга - проект, созданный независимым сообществом Код Екатеринбурга, позволяющий получить информацию о транспортной системе города</p>
+    </div>
+    <div class='col-md-2 col-12 offset-md-1'>
+        <p><span class='main-color'>Процесс</span></p>
+    </div>
+    <div class='col-md-8 col-12 inner-block'>
+        <p>Первые наброски главной появились в декабре 2022 для портативных устройств</p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/ekb-01.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>В марте начали работы над полноценной первой версией главной</p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/ekb-02.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>Примерно в тоже время началась разработка внутренних страниц</p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/ekb-03.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>Летом 2023 года начали переделывать главную страницу с успокоением цветов</p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/ekb-04.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>А так же поиском стиля для каждой карточки</p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/ekb-05.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>В итоге получили новую версию главной, которую легко адаптировать под любой размер экрана</p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/ekb-06.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>Параллельно шли работы по созданию и наполнению внутренних страниц. Как пример - оплата парковок</p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/ekb-07.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>Посмотреть сайт: <a class='link' href="https://transport.ekaterinburg.city" target="_blank">transport.ekaterinburg.city</a>. Сайт находится в процессе обновления.</p>
+    </div>

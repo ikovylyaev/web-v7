@@ -10,5 +10,60 @@ permalink: "/design/xieffect/"
 image: "xieffect"
 imgsize: "contain"
 bgcolor: "#E9E9E9"
-link: ""
+link: "/xieffect"
+permalink: "/xieffect/"
+role: "Дизайн-лид"
+year: "2022-2023"
 ---
+<div class='row'>
+    <div class='col-md-2 col-12 offset-md-1'>
+        <p><span class='main-color'>Задача</span></p>
+    </div>
+    <div class='col-md-8 col-12 inner-block'>
+        <p>Создать айдентику, лендинги и веб-приложение edtech стартапа.</p>
+    </div>
+    <div class='col-md-2 col-12 offset-md-1'>
+        <p><span class='main-color'>Описание</span></p>
+    </div>
+    <div class='col-md-8 col-12 inner-block'>
+        <p>Xieffect.ru - цифровая образовательная платформа, позволяющая создавать образовательные сообщества и использовать их в обучении: онлайн, смешанного или офлайн.</p>
+    </div>
+    <div class='col-md-2 col-12 offset-md-1'>
+        <p><span class='main-color'>Процесс</span></p>
+    </div>
+    <div class='col-md-8 col-12 inner-block'>
+        <p>На момент начала работы над проектом существовала часть приложения и дизайн-система. В первой итерации был доделан базовый функционал сервиса: задания и тесты, объявления и видеоконференции.</p>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>В декабре 2022 года была начата разработка новой дизайн-системы Маркер</p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/Xi-01.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>В апреле 2023 года начата работа по обновлению фирменного стиля, у бренда появляется собсвтенный шрифт для логотипов.</p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/Xi-02.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p><a class='link' href="{{site.url}}/files/xi-brand.pdf" target="_blank">Брендбук</a></p>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>В мае 2023 начата работа по обнововлению Epic и переезду на ДС Маркер. </p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/Xi-03.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>Летом 2023 началась работа над лендингами. Был создан лендинг вакансий <a class='link' href="https://vacancy.xieffect.ru" target="_blank">vacancy.xieffect.ru</a> и начаты работы над основным лендингом <a class='link' href="https://xieffect.ru" target="_blank">xieffect.ru</a>.</p>
+    </div>
+    <div class='col-12 inner-block'>
+        <img src='{{site.url}}/img/works/Xi-04.webp' style='width: 100%;'>
+    </div>
+    <div class='col-md-10 col-12 offset-md-1 inner-block'>
+        <p>Протестировать сервис: <a class='link' href="https://app.xieffect.ru" target="_blank">app.xieffect.ru</a><br>
+        Email: test@test.test<br>
+        Пароль: 123456</p>
+    </div>
+</div>
