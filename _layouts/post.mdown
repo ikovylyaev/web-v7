@@ -4,8 +4,9 @@ layout: default
 <div class='container-fluid'>
     <div class='row'>
         <div class='col-md-10 col-12 offset-md-1'>
-            <p><span class='main-color'>Иван Ковыляев.</span>Дизайнер, фотограф. Живу в Петербурге, работаю сразу в нескольких прекрасных командах.</p>
+            <p><span class='main-color'>Иван Ковыляев.</span>Дизайнер дизайн-систем, интерфейсов, продуктов. Живу в Петербурге, работаю сразу в нескольких прекрасных командах.</p>
         </div>
+    </div>
     </div>
     <div class='row'>
         <div class='col-md-10 col-12 offset-md-1'>
