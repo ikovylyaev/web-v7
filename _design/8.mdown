@@ -1,11 +1,11 @@
 ---
 id: 8
-title: "Мобильное приложение Hawk."
+title: "Мобильное приложение Hawk"
 layout: post
 date: '2022-09-23 20:00:00 +0500'
 type: design
 categories: ux/ui
-description: "Проектирование и дизайн мобильной версии баг-трекера. <br>
+description: "Проектирование и дизайн мобильной версии баг-трекера. 
 Сделано для CodeX."
 permalink: "/design/hawk/"
 image: "hawk"

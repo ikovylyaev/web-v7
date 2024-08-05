@@ -2,15 +2,24 @@
 layout: default
 permalink: /policy/
 ---
-<div class='container-fluid'>
+<div class='container-fluid inter-regular'>
     <div class='row'>
-        <div class='col-md-10 col-12 offset-md-1'>
-            <p><span class='main-color'>Иван Ковыляев.</span> Дизайн-лид <a class='link' href="https://xieffect.ru" target="blank">Xieffect.ru</a> и веб-дизайнер в <a class='link' href="https://ekaterinburg.dev/" target="blank">Код Екатеринбурга</a>. Делаю удобные интерфейсы для людей.</p>
+        <div class='col-12'>
+            <a class='avatar' href='{{site.url}}'>
+                <div class='avatar-image'><img src='{{site.url}}/img/avatar.png' alt='Ivan Kovylyaev'></div>
+                <div class='avatar-text'>
+                    <span class='inter-regular'>Иван Ковыляев</span>
+                    <p class='inter-regular'>UX/UI и продуктовый дизайнер</p>
+                </div>
+            </a>
+            <div class='about'>
+                <p class='main-color inter-regular'>Политика в отношении обработки персональных данных</p>
+            </div>
         </div>
     </div>
     <div class='row'>
-        <div class='col-md-10 col-12 offset-md-1' style='font-size: 16px; font-weight: 500;'>
-            <h1 class="mb-3" style='font-size: 24px; font-weight: 800;'>Политика в отношении обработки персональных данных</h1>
+        <div class='col-12 inner-block'>
+            <!---<h1 class="mb-3" style='font-size: 24px; font-weight: 800;'>Политика в отношении обработки персональных данных</h1>--->
             <b>1. Общие положения</b>
             <p>Настоящая политика обработки персональных данных составлена в соответствии с требованиями Федерального закона от 27.07.2006. №152-ФЗ «О персональных данных» и определяет порядок обработки персональных данных и меры по обеспечению безопасности персональных данных, предпринимаемые Ковыляевым Иваном Сергеевичем (далее – Оператор).</p>
             <p>1.1. Оператор ставит своей важнейшей целью и условием осуществления своей деятельности соблюдение прав и свобод человека и гражданина при обработке его персональных данных, в том числе защиты прав на неприкосновенность частной жизни, личную и семейную тайну.</p>

@@ -1,16 +1,20 @@
 ---
 layout: default
 ---
-<div class='container-fluid'>
+<div class='container-fluid inter-regular'>
     <div class='row'>
-        <div class='col-md-10 col-12 offset-md-1'>
-            <p><span class='main-color'>Иван Ковыляев.</span> Дизайнер дизайн-систем, интерфейсов, продуктов. Живу в Петербурге, работаю сразу в нескольких прекрасных командах.</p>
-        </div>
-    </div>
-    </div>
-    <div class='row'>
-        <div class='col-md-10 col-12 offset-md-1'>
-            <p><span class='main-color'>{{ page.title }}</span><br>{{page.role}} · {{page.year}}</p>
+        <div class='col-12'>
+            <a class='avatar' href='{{site.url}}'>
+                <div class='avatar-image'><img src='{{site.url}}/img/avatar.png' alt='Ivan Kovylyaev'></div>
+                <div class='avatar-text'>
+                    <span class='inter-regular'>Иван Ковыляев</span>
+                    <p class='inter-regular'>UX/UI и продуктовый дизайнер</p>
+                </div>
+            </a>
+            <div class='about'>
+                <h4 class='second-color inter-regular'>{{page.role}} · {{page.year}}</h4>
+                <p class='main-color inter-regular'>{{ page.title }}</p>
+            </div>
         </div>
     </div>
     <div class='row'>
@@ -19,17 +23,15 @@ layout: default
         </div>
         {{ content }}
     </div>
-        <footer class='row'>
-        <div class='row'>
-            <div class='col text-center'>2019-2023</div>
-            <div class='col text-center'><a class='link' target='_blank' href='mailto:{{ site.email }}'>{{ site.email}}</a></div>
-            <div class='col text-center'><a class='link' target='_blank' href='https://t.me/{{ site.telegram }}'>Телеграм</a></div>
-            <div class='col text-center'><a class='link' target='_blank' href='https://behance.net/{{ site.behance }}'>Беханс</a></div>
-            <div class='col text-center'><a class='link' target='_blank' href='https://dprofile.ru/{{ site.dprofile }}'>ДПрофайл</a></div>
-            <div class='col text-center'><a class='link' target='_blank' href='https://figma.com/@{{ site.figma }}'>Фигма</a></div>
-        </div>
-        <div class='row text-center'>
-            <div class='col'><a class='link secondary-link' href='{{ site.url }}/policy'>Политика конфиденциальности</a></div>
-        </div>
+    <footer class='row'>
+        <div class='col text-start'>2019-2023</div>
+        <div class='col text-center'><a class='link' target='_blank' href='mailto:{{ site.email }}'>{{ site.email}}</a></div>
+        <div class='col text-center'><a class='link' target='_blank' href='https://t.me/{{ site.telegram }}'>Телеграм</a></div>
+        <div class='col text-center'><a class='link' target='_blank' href='https://behance.net/{{ site.behance }}'>Беханс</a></div>
+        <div class='col text-center'><a class='link' target='_blank' href='https://dprofile.ru/{{ site.dprofile }}'>ДПрофайл</a></div>
+        <div class='col text-end'><a class='link' target='_blank' href='https://figma.com/@{{ site.figma }}'>Фигма</a></div>
+    </footer>
+    <footer class='row text-center'>
+        <div class='col'><a class='link secondary-link' href='{{ site.url }}/policy'>Политика конфиденциальности</a></div>
     </footer>
 </div>

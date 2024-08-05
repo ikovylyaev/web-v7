@@ -1,9 +1,37 @@
+:root{
+    --main-color: hsla(221, 100%, 5%, 1);
+    --main-color-8: hsla(221, 100%, 5%, 0.8);
+    --second-color: hsla(218, 15%, 25%, 1);
+    --orange: hsla(27, 100%, 50%, 1);
+    --orange-link: hsla(27, 100%, 50%, 0.8);
+    --orange-bg: hsla(27, 100%, 50%, 0.1);
+    --orange-bg-hover: hsla(27, 100%, 50%, 0.2);
+    --bg: hsla(0, 0%, 100%, 1);
+    --font-base: clamp(14px, 1.8vh, 24px);
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: var(--bg);
+    color: var(--main-color);
+}
+.inter-regular {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.inter-bold {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
 @media (max-width: 500px) {
     body{
         padding: 5vw;
-        font-family: 'PT Root UI', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background: hsla(0, 0%, 100%, 1);
-        color: hsla(218, 15%, 25%, 1);
         margin-top: 0.75rem;
         font-size: 3.5vh;
         font-weight: 600;
@@ -26,9 +54,6 @@
     body{
         padding: 10vw;
         margin-top: 0.75rem;
-        font-family: 'PT Root UI', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-        background: hsla(0, 0%, 100%, 1);
-        color: hsla(218, 15%, 25%, 1);
         font-size: 4vh;
         font-weight: 600;
         width: 100%;
@@ -45,9 +70,72 @@
         font-size: 2vh;
     }
 }
+.avatar{
+    margin-bottom: 2em !important;
+    height: 2em;
+    display: inline-block;
+}
+.avatar-image{
+    width: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+.avatar-image img{
+    width: 100%;
+}
+.avatar-text{
+    display: inline-block;
+    margin-left: 0.3em;
+    vertical-align: middle;
+}
+.avatar-text span{
+    color: var(--main-color);
+    font-size: 1em;
+    margin-bottom: 0px;
+    line-height: 0.8em;
+}
+.avatar-text p{
+    color: var(--second-color);
+    font-size: 0.7em;
+    margin-top: -0.4em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 
 .main-color{
-    color: hsla(221, 100%, 5%, 1);
+    color: var(--main-color);
+}
+.second-color{
+    color: var(--second-color);
+}
+.about h4{
+    font-size: 0.8em;
+    padding: 0px;
+    margin-bottom: 0px;
+    font-weight: 500!important;
+}
+.about p{
+    font-size: 1.2em;
+}
+
+
+.pill-link{
+    padding: 0.05em 0.8em 0.15em 0.8em;
+    display: inline-block;
+    margin-bottom: 0.2em;
+    border: var(--main-color) 1px solid;
+    border-radius: 26px;
+    color: var(--main-color);
+    text-decoration: none;
+    transition: 0.1s;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.pill-link:hover{
+    border: var(--orange) 1px solid;
+    color: var(--orange);
+    text-decoration: none;
+    transition: 0.1s;
 }
 
 span{
@@ -66,16 +154,16 @@ a:hover{
 }
 
 .link{
-    color: hsla(220, 80%, 20%, 1);
+    color: var(--main-color);
     text-decoration: none;
-    border-bottom: 2px solid hsla(220, 80%, 20%, 0.2);
-    transition: 0.3s;
+    border-bottom: 1px solid var(--main-color-8);
+    transition: 0.1s;
 }
 .link:hover{
-    color: hsla(220, 80%, 20%, 1);
+    color: var(--orange);
     text-decoration: none;
-    border-bottom: 2px solid hsla(220, 80%, 20%, 1);
-    transition: 0.3s;
+    border-bottom: 1px solid var(--orange);
+    transition: 0.1s;
 }
 
 .secondary-link{

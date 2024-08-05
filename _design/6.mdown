@@ -1,11 +1,11 @@
 ---
 id: 6
-title: "Приложение для заметок Адрон."
+title: "Приложение для заметок Адрон"
 layout: post
 date: '2022-09-23 20:00:00 +0500'
 type: design
 categories: ux/ui
-description: "Проектирование и дизайн десктопной версии на основе ДС Финка.<br>
+description: "Проектирование и дизайн десктопной версии на основе ДС Финка. 
 Концепт."
 permalink: "/design/adron/"
 image: "adron"

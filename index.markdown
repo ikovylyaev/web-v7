@@ -1,24 +1,26 @@
 ---
 layout: default
 ---
-<div class='container-fluid'>
+<div class='container-fluid inter-regular'>
     <div class='row'>
-        <div class='col-md-10 col-12 offset-md-1'>
-            <!---<p><span class='main-color'>Иван Ковыляев.</span>Дизайн-лид <a class='link' href="https://xieffect.ru" target="blank">Xieffect.ru</a> и веб-дизайнер в <a class='link' href="https://ekaterinburg.dev/" target="blank">Код Екатеринбурга</a>. Делаю удобные интерфейсы для людей.</p>-->
-            <p><span class='main-color'>Иван Ковыляев.</span> Дизайнер дизайн-систем, интерфейсов, продуктов. Живу в Петербурге, работаю сразу в нескольких прекрасных командах.</p>
-            <p><span class='main-color'><a class='link' href="https://xieffect.ru" target="_blank">xieffect.ru</a></span> · Делаем лучшую образовательную платформу для репетиторов и малого бизнеса.</p>
-            <p><span class='main-color'><a class='link' href="https://ekaterinburg.dev/" target="_blank">Код Екатеринбурга</a></span> · Создаем цифровую экосистему города, отвечаю за транспорт.</p>
-        </div>
-    </div>
-    <div class='row'>
-        <div class='col-md-10 col-12 offset-md-1'>
-            <p>Вы можете найти мои работы на <a class='link' href="https://behance.net/{{site.behance}}" target="_blank">беханс</a>, <a class='link' href="https://dprofile.ru/{{site.dprofile}}" target="_blank">дпрофайле</a> и <a class='link' href="https://figma.com/@{{site.figma}}" target="_blank">фигме</a>.</p>
-        </div>
-    </div>
-    <div class='row'>
-        <div class='col-md-10 col-12 offset-md-1'>
-            <p>Связаться со мной: <a class='link' href="mailto:{{site.email}}" target="_blank">{{site.email}}</a> или <a class='link' href="https://t.me/{{site.telegram}}" target="_blank">t.me/ikovylyaev</a>.</p>
-            <a href='https://ikovylyaev.notion.site/d98c11b3504b4bcaa7832a8a3eef81d9?pvs=4' target="_blank" class='link'>Резюме</a>
+        <div class='col-12'>
+            <a class='avatar' href='{{site.url}}'>
+                <div class='avatar-image'><img src='{{site.url}}/img/avatar.png' alt='Ivan Kovylyaev'></div>
+                <div class='avatar-text'>
+                    <span class='inter-regular'>Иван Ковыляев</span>
+                    <p class='inter-regular'>UX/UI и продуктовый дизайнер</p>
+                </div>
+            </a>
+            <div class='about'>
+                <h4 class='second-color inter-regular'>Кратко</h4>
+                <p class='main-color inter-regular'>Занимаюсь дизайном интерфейсов, веб-сайтов, созданием дизайн-систем, брендингом и шрифтовым дизайном более 5 лет. Работаю в xi.effect. Это лучшее приложение для репетиторов и малого бизнеса. Также успел поработать в коде Екатеринбурга над транспортным порталом. Живу в Екатеринбурге, вдохновляюсь этим замечательным городом и природой вокруг. </p>
+            </div>
+            <div class='links'>
+                <a class='pill-link' href='https://t.me/ikovylyaev'>Telegram</a>
+                <a class='pill-link' href='mailto:hi@ikovylyaev.com'>hi@ikovylyaev.com</a>
+                <a class='pill-link' href='https://behance.net/{{site.behance}}'>Behance</a>
+                <a class='pill-link' href='https://dprofile.ru/{{site.dprofile}}'>DProfile</a>
+            </div>
         </div>
     </div>
     {% for post in site.design %}
@@ -27,12 +29,12 @@ layout: default
             <div class='image' style="background: url({{site.url}}/img/works/{{ post.image }}.webp); background-size: {{ post.imgsize }}; background-position: center; background-repeat: no-repeat; background-color: {{ post.bgcolor}};"></div>
         </div>
         {% if post.link != "" %}
-            <a  href="{{ post.link }}" target="blank" class='col-md-10 col-12 offset-md-1'>
+            <a  href="{{ post.link }}" target="blank" class='col-12'>
         {% else%}
-            <div class='col-md-10 col-12 offset-md-1'>
+            <div class='col-12'>
         {% endif %}
-            <p>
-                <span class='main-color'>{{ post.title}}</span> 
+            <p class='inter-regular'>
+                <span class='main-color inter-regular'>{{ post.title}}.</span> 
                 {{ post.description }}
             </p>
         {% if post.link != "" %}
@@ -43,16 +45,14 @@ layout: default
     </div>
     {% endfor %}
     <footer class='row'>
-        <div class='row'>
-            <div class='col text-center'>2019-2023</div>
-            <div class='col text-center'><a class='link' target='_blank' href='mailto:{{ site.email }}'>{{ site.email}}</a></div>
-            <div class='col text-center'><a class='link' target='_blank' href='https://t.me/{{ site.telegram }}'>Телеграм</a></div>
-            <div class='col text-center'><a class='link' target='_blank' href='https://behance.net/{{ site.behance }}'>Беханс</a></div>
-            <div class='col text-center'><a class='link' target='_blank' href='https://dprofile.ru/{{ site.dprofile }}'>ДПрофайл</a></div>
-            <div class='col text-center'><a class='link' target='_blank' href='https://figma.com/@{{ site.figma }}'>Фигма</a></div>
-        </div>
-        <div class='row text-center'>
-            <div class='col'><a class='link secondary-link' href='{{ site.url }}/policy'>Политика конфиденциальности</a></div>
-        </div>
+        <div class='col text-start'>2019-2023</div>
+        <div class='col text-center'><a class='link' target='_blank' href='mailto:{{ site.email }}'>{{ site.email}}</a></div>
+        <div class='col text-center'><a class='link' target='_blank' href='https://t.me/{{ site.telegram }}'>Телеграм</a></div>
+        <div class='col text-center'><a class='link' target='_blank' href='https://behance.net/{{ site.behance }}'>Беханс</a></div>
+        <div class='col text-center'><a class='link' target='_blank' href='https://dprofile.ru/{{ site.dprofile }}'>ДПрофайл</a></div>
+        <div class='col text-end'><a class='link' target='_blank' href='https://figma.com/@{{ site.figma }}'>Фигма</a></div>
+    </footer>
+    <footer class='row text-center'>
+        <div class='col'><a class='link secondary-link' href='{{ site.url }}/policy'>Политика конфиденциальности</a></div>
     </footer>
 </div>
