@@ -5,7 +5,7 @@ layout: post
 date: '2022-09-23 20:00:00 +0500'
 type: design
 categories: ux/ui
-description: "Проектирование и дизайн десктопной версии на основе ДС Финка. Концепт."
+description: "Проектирование и&nbsp;дизайн десктопной версии на&nbsp;основе ДС&nbsp;Финка. Концепт."
 permalink: "/design/luch/"
 image: "luch"
 imgsize: "contain"
