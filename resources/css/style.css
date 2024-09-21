@@ -138,6 +138,12 @@ body{
     transition: 0.1s;
 }
 
+.pill-link.active{
+    background-color: var(--orange-bg);
+    color: var(--orange);
+    border: rgba(0, 0, 0, 0) 1px solid;
+}
+
 span{
     max-width: 100%;
     font-weight: 600;

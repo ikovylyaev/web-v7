@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /photo/
 ---
 <div class='container-fluid inter-regular'>
     <div class='row'>
@@ -11,40 +12,23 @@ layout: default
                     <p class='inter-regular'>UX/UI и продуктовый дизайнер</p>
                 </div>
             </a>
-            <div class='about'>
-                <h4 class='second-color inter-regular'>Кратко</h4>
-                <p class='main-color inter-regular'>Занимаюсь дизайном интерфейсов, веб-сайтов, созданием дизайн-систем, брендингом и&nbsp;шрифтовым дизайном более 5&nbsp;лет. Работаю в&nbsp;xi.effect. Это лучшее приложение для репетиторов и&nbsp;малого бизнеса. Также успел поработать в&nbsp;коде Екатеринбурга над транспортным порталом. Живу в&nbsp;Екатеринбурге, вдохновляюсь этим замечательным городом и&nbsp;природой вокруг. </p>
-            </div>
             <div class='links'>
                 <a class='pill-link' href='https://t.me/ikovylyaev'>Telegram</a>
                 <a class='pill-link' href='mailto:hi@ikovylyaev.com'>hi@ikovylyaev.com</a>
                 <a class='pill-link' href='https://behance.net/{{site.behance}}'>Behance</a>
                 <a class='pill-link' href='https://dprofile.ru/{{site.dprofile}}'>DProfile</a>
-                <a class='pill-link' href='https://ikovylyaev.com/photo'>Photo</a>
+                <a class='pill-link active' href='https://ikovylyaev.com/photo'>Photo</a>
             </div>
         </div>
     </div>
-    {% for post in site.design %}
     <div class='row'>
-        <div class='col-12'>
-            <div class='image' style="background: url({{site.url}}/img/works/{{ post.image }}.webp); background-size: {{ post.imgsize }}; background-position: center; background-repeat: no-repeat; background-color: {{ post.bgcolor}};"></div>
-        </div>
-        {% if post.link != "" %}
-            <a  href="{{ post.link }}" target="blank" class='col-12'>
-        {% else%}
-            <div class='col-12'>
-        {% endif %}
-            <p class='inter-regular'>
-                <span class='main-color inter-regular'>{{ post.title}}.</span> 
-                {{ post.description }}
-            </p>
-        {% if post.link != "" %}
-            </a>
-        {% else%}
-            </div>
-        {% endif %}
+        {% for counter in (1..79) %}
+            <div class='col-md-4 col-sm-6 col-12 photo' style='background: url({{site.url}}/img/photo/{{ counter }}.webp);background-size: cover; background-position: center;'></div>
+        {% endfor %}
+        <a href="https://media.ikovylyaev.com" target="_blank" class='col-md-4 col-sm-6 col-12 photo' style='background: var(--orange);'>
+            <h4>Больше фотографий на&nbsp;media.ikovylyaev.com</h4>
+        </a>
     </div>
-    {% endfor %}
     <footer class='row'>
         <div class='col text-start'>2019-2023</div>
         <div class='col text-center'><a class='link' target='_blank' href='mailto:{{ site.email }}'>{{ site.email}}</a></div>
@@ -57,3 +41,20 @@ layout: default
         <div class='col'><a class='link secondary-link' href='{{ site.url }}/policy'>Политика конфиденциальности</a></div>
     </footer>
 </div>
+
+<style>
+  .photo{
+    aspect-ratio: 1/1;
+    border: 8px solid #FFFFFF;
+    position: relative;
+  }
+  .photo h4{
+    position: absolute;
+    width: calc(100% - 32px);
+    text-align:center;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #ffffff;
+  }
+</style>
