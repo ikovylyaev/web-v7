@@ -22,7 +22,7 @@ permalink: /photo/
         </div>
     </div>
     <div class='row'>
-        {% for counter in (1..79) %}
+        {% for counter in (1..87) %}
             <div class='col-md-4 col-sm-6 col-12 photo' style='background: url({{site.url}}/img/photo/{{ counter }}.webp);background-size: cover; background-position: center;'></div>
         {% endfor %}
         <a href="https://media.ikovylyaev.com" target="_blank" class='col-md-4 col-sm-6 col-12 photo' style='background: var(--orange);'>
@@ -30,7 +30,7 @@ permalink: /photo/
         </a>
     </div>
     <footer class='row'>
-        <div class='col text-start'>2019-2023</div>
+        <div class='col text-start'>2019 - {{ 'now' | date: "%Y" }}</div>
         <div class='col text-center'><a class='link' target='_blank' href='mailto:{{ site.email }}'>{{ site.email}}</a></div>
         <div class='col text-center'><a class='link' target='_blank' href='https://t.me/{{ site.telegram }}'>Телеграм</a></div>
         <div class='col text-center'><a class='link' target='_blank' href='https://behance.net/{{ site.behance }}'>Беханс</a></div>
